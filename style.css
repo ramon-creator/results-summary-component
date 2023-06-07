@@ -1,0 +1,192 @@
+   body {
+       width: 100%;
+       margin: 300px auto;
+       font-family: 'Hanken Grotesk', sans-serif;
+   }
+
+   .container {
+       display: flex;
+       width: 1024px;
+       margin: 300px auto;
+       border-radius: 25px;
+       box-shadow: 15px 15px 10px rgba(44, 2, 212, 0.084);
+       flex-wrap: wrap;
+   }
+
+   .result {
+       background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+       border-radius: 30px;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       width: 50%;
+   }
+
+   h1 {
+       color: hsl(222, 5%, 63%);
+       font-size: x-large;
+       font-weight: 700;
+       margin-top: 50px;
+   }
+
+   h2 {
+       color: hsl(222, 5%, 63%);
+       font-size: xx-large;
+       font-weight: 800;
+   }
+
+   .calculus {
+       font-size: 100px;
+       color: white;
+       font-weight: 800;
+       margin: 0 auto;
+   }
+
+   .calculus2 {
+       color: rgb(159, 157, 155);
+       font-size: 20px;
+       display: block;
+   }
+
+   .summary {
+       width: 50%;
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       align-items: center;
+       margin: 40px 0px 40px 0px;
+   }
+
+   .circle {
+       width: 250px;
+       height: 250px;
+       border-radius: 50%;
+       background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       flex-wrap: wrap;
+   }
+
+   .paraf {
+       font-size: 18px;
+       text-align: center;
+       width: 250px;
+       color: hsl(222, 5%, 63%);
+       font-weight: 500;
+       margin-bottom: 30px;
+   }
+
+   .resume {
+       font-size: x-large;
+       font-weight: 800;
+       margin: 30px 270px 10px 0px;
+   }
+
+   .reaction {
+       display: flex;
+       background-color: hsla(0, 100%, 67%, 0.152);
+       justify-content: center;
+       align-items: center;
+       color: hsl(0, 100%, 67%);
+       height: 50px;
+       width: 380px;
+       border-radius: 8px;
+       font-size: 18px;
+       font-weight: 700;
+   }
+
+   .memory {
+       display: flex;
+       background-color: hsla(39, 100%, 56%, 0.155);
+       justify-content: center;
+       align-items: center;
+       color: hsl(39, 100%, 56%);
+       height: 50px;
+       width: 380px;
+       border-radius: 8px;
+       font-size: 18px;
+       font-weight: 700;
+   }
+
+   .Verbal {
+       display: flex;
+       background-color: hsla(166, 100%, 37%, 0.151);
+       justify-content: center;
+       align-items: center;
+       color: hsl(166, 100%, 37%);
+       height: 50px;
+       width: 380px;
+       border-radius: 8px;
+       font-size: 18px;
+       font-weight: 700;
+   }
+
+   .Visual {
+       display: flex;
+       background-color: hsla(234, 85%, 45%, 0.153);
+       justify-content: center;
+       align-items: center;
+       color: hsl(234, 85%, 45%);
+       height: 50px;
+       width: 380px;
+       border-radius: 8px;
+       font-size: 18px;
+       font-weight: 700;
+   }
+
+   .buttom {
+       background-color: hsl(224, 30%, 27%);
+       border-radius: 30px;
+       color: aliceblue;
+       text-decoration: none;
+       text-align: center;
+       padding: 20px 150px;
+       font-size: 18px;
+       margin: 40px 0px 40px 0px;
+   }
+
+   .buttom:hover {
+       background-color: hsl(252, 100%, 67%);
+   }
+
+   .lettertype {
+       margin-left: 200px;
+       color: rgb(19, 19, 154);
+   }
+
+   img {
+       margin-right: 10px;
+   }
+
+   span {
+       color: hsl(222, 5%, 63%);
+   }
+
+   @media only screen and (max-width: 512px) {
+       body {
+           margin: -25px auto;
+           height: 100%;
+           width: 100%;
+           display: flex;
+           flex-wrap: wrap;
+       }
+
+       .container {
+           box-shadow: none;
+           margin: 0px 0px;
+           height: 100%;
+           width: 100%;
+           margin-top: -90;
+       }
+
+       .result {
+           width: 500px;
+       }
+
+       .summary {
+           width: 500px;
+       }
+   }
